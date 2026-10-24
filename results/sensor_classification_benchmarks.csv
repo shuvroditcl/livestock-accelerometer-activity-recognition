@@ -1,0 +1,7 @@
+Model,Accuracy,Macro_Precision,Macro_Recall,Macro_F1,Weighted_F1,Feeding_F1,Moving_F1,Resting_F1,Ruminating_F1
+MLP (100 Hidden Units),0.91,0.84,0.9,0.86,0.91,0.91,0.86,0.95,0.73
+"SVM (RBF, Balanced)",0.91,0.83,0.92,0.86,0.91,0.91,0.9,0.94,0.7
+Random Forest (Full 123 Feat.),0.89,0.81,0.89,0.84,0.9,0.88,0.87,0.93,0.68
+RF + PCA (95% Variance),0.92,0.85,0.87,0.86,0.92,0.88,0.87,0.95,0.74
+RF + LDA (Fisher Discriminant),0.9,0.81,0.88,0.84,0.91,0.86,0.87,0.94,0.69
+RF + SelectKBest (Top 20),0.89,0.8,0.9,0.83,0.9,0.86,0.88,0.93,0.66
