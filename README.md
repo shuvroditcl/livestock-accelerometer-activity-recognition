@@ -104,7 +104,7 @@ Download Dataset: Obtain cow_accelerometer_data.xlsx from Zenodo Record 5849025.
 Install Dependencies & Execute:
 
 ```Bash
-git clone [https://github.com/](https://github.com/)<YOUR-GITHUB-USERNAME>/livestock-accelerometer-activity-recognition.git
+git clone [https://github.com/](https://github.com/)shuvroditcl/livestock-accelerometer-activity-recognition.git
 cd livestock-accelerometer-activity-recognition
 pip install -r requirements.txt
 jupyter notebook notebooks/Inertial_Sensor_Behavior_Classification_Pipeline.ipynb
